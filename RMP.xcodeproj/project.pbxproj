@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27AA34AD2D60879700FEC5F4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AA34AC2D60879700FEC5F4 /* Constants.swift */; };
+		27AA34B22D60933500FEC5F4 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 27AA34B12D60933500FEC5F4 /* Localizable.xcstrings */; };
+		27AA34B42D609F8F00FEC5F4 /* SignUpPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AA34B32D609F8F00FEC5F4 /* SignUpPage.swift */; };
+		27AA34B62D60D23300FEC5F4 /* SignInPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AA34B52D60D23300FEC5F4 /* SignInPage.swift */; };
+		27D12CFD2D61D97A00AC3337 /* ForgotPwdPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D12CFC2D61D97A00AC3337 /* ForgotPwdPage.swift */; };
+		27D12CFF2D61F51900AC3337 /* languageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D12CFE2D61F51900AC3337 /* languageManager.swift */; };
 		27D44CBF2D607F1B00BF8E84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D44CBE2D607F1B00BF8E84 /* AppDelegate.swift */; };
 		27D44CC12D607F1B00BF8E84 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D44CC02D607F1B00BF8E84 /* SceneDelegate.swift */; };
-		27D44CC32D607F1B00BF8E84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D44CC22D607F1B00BF8E84 /* ViewController.swift */; };
+		27D44CC32D607F1B00BF8E84 /* SplashPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D44CC22D607F1B00BF8E84 /* SplashPage.swift */; };
 		27D44CC62D607F1B00BF8E84 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 27D44CC52D607F1B00BF8E84 /* Base */; };
 		27D44CC82D607F1D00BF8E84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27D44CC72D607F1D00BF8E84 /* Assets.xcassets */; };
 		27D44CCB2D607F1D00BF8E84 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 27D44CCA2D607F1D00BF8E84 /* Base */; };
@@ -36,10 +42,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27AA34AC2D60879700FEC5F4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		27AA34B12D60933500FEC5F4 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		27AA34B32D609F8F00FEC5F4 /* SignUpPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPage.swift; sourceTree = "<group>"; };
+		27AA34B52D60D23300FEC5F4 /* SignInPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInPage.swift; sourceTree = "<group>"; };
+		27D12CFC2D61D97A00AC3337 /* ForgotPwdPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPwdPage.swift; sourceTree = "<group>"; };
+		27D12CFE2D61F51900AC3337 /* languageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = languageManager.swift; sourceTree = "<group>"; };
 		27D44CBB2D607F1B00BF8E84 /* RMP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RMP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27D44CBE2D607F1B00BF8E84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27D44CC02D607F1B00BF8E84 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		27D44CC22D607F1B00BF8E84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		27D44CC22D607F1B00BF8E84 /* SplashPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashPage.swift; sourceTree = "<group>"; };
 		27D44CC52D607F1B00BF8E84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		27D44CC72D607F1D00BF8E84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27D44CCA2D607F1D00BF8E84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -101,11 +113,17 @@
 			children = (
 				27D44CBE2D607F1B00BF8E84 /* AppDelegate.swift */,
 				27D44CC02D607F1B00BF8E84 /* SceneDelegate.swift */,
-				27D44CC22D607F1B00BF8E84 /* ViewController.swift */,
+				27D44CC22D607F1B00BF8E84 /* SplashPage.swift */,
+				27AA34B52D60D23300FEC5F4 /* SignInPage.swift */,
+				27AA34B32D609F8F00FEC5F4 /* SignUpPage.swift */,
+				27D12CFC2D61D97A00AC3337 /* ForgotPwdPage.swift */,
 				27D44CC42D607F1B00BF8E84 /* Main.storyboard */,
+				27AA34AC2D60879700FEC5F4 /* Constants.swift */,
 				27D44CC72D607F1D00BF8E84 /* Assets.xcassets */,
 				27D44CC92D607F1D00BF8E84 /* LaunchScreen.storyboard */,
 				27D44CCC2D607F1D00BF8E84 /* Info.plist */,
+				27AA34B12D60933500FEC5F4 /* Localizable.xcstrings */,
+				27D12CFE2D61F51900AC3337 /* languageManager.swift */,
 			);
 			path = RMP;
 			sourceTree = "<group>";
@@ -213,6 +231,15 @@
 			knownRegions = (
 				en,
 				Base,
+				hi,
+				ur,
+				ta,
+				te,
+				kn,
+				ml,
+				ig,
+				ha,
+				yo,
 			);
 			mainGroup = 27D44CB22D607F1B00BF8E84;
 			productRefGroup = 27D44CBC2D607F1B00BF8E84 /* Products */;
@@ -232,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				27D44CC82D607F1D00BF8E84 /* Assets.xcassets in Resources */,
+				27AA34B22D60933500FEC5F4 /* Localizable.xcstrings in Resources */,
 				27D44CCB2D607F1D00BF8E84 /* Base in Resources */,
 				27D44CC62D607F1B00BF8E84 /* Base in Resources */,
 			);
@@ -258,9 +286,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27D44CC32D607F1B00BF8E84 /* ViewController.swift in Sources */,
+				27D44CC32D607F1B00BF8E84 /* SplashPage.swift in Sources */,
+				27AA34B42D609F8F00FEC5F4 /* SignUpPage.swift in Sources */,
+				27AA34B62D60D23300FEC5F4 /* SignInPage.swift in Sources */,
 				27D44CBF2D607F1B00BF8E84 /* AppDelegate.swift in Sources */,
+				27D12CFD2D61D97A00AC3337 /* ForgotPwdPage.swift in Sources */,
 				27D44CC12D607F1B00BF8E84 /* SceneDelegate.swift in Sources */,
+				27AA34AD2D60879700FEC5F4 /* Constants.swift in Sources */,
+				27D12CFF2D61F51900AC3337 /* languageManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,7 +401,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -425,7 +458,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -440,23 +473,24 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = PEPEHLK578;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RMP/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.chillar.rmp.RMP;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chillar.rmp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -468,23 +502,24 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = PEPEHLK578;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RMP/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.chillar.rmp.RMP;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chillar.rmp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
